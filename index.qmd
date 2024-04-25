@@ -1,5 +1,5 @@
 ---
-title: "New_Folder"
+title: "Mason's Blog"
 listing:
   contents: posts
   sort: "date desc"
