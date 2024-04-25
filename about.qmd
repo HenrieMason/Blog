@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Mason Henrie"
 image: profile.jpg
 about:
   template: jolla
@@ -16,4 +16,4 @@ about:
 
 ---
 
-About this blog
+Studied Data Science and Finance at Brigham Young University - Idaho
