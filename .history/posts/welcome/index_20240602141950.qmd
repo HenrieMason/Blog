@@ -1,0 +1,12 @@
+---
+title: "Let me introduce myself"
+author: "Mason Henrie"
+date: "2024-04-24"
+categories: [AboutMe]
+---
+
+Welcome to Mason's Blog! This article gives a brief introduction into who I am.
+
+![](thumbnail.jpg)
+
+I'm Mason Henrie, a 2024 graduate from BYU-Idaho. I studied both Data Science and Finance in college

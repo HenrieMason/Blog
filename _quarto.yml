@@ -12,5 +12,5 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: sketchy
+    theme: journal
     css: styles.css
