@@ -2,7 +2,7 @@
 title: "Visualization tools for Data Analyst"
 author: "Mason Henrie"
 date: "2024-04-27"
-categories: [retirement]
+categories: []
 image: "image.jpg"
 ---
 
