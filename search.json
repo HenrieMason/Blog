@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mason’s Blog",
-    "section": "",
-    "text": "Let me introduce myself\n\n\n\n\n\n\nAboutMe\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Let me introduce myself",
     "section": "",
-    "text": "Welcome to Mason’s Blog! This article gives a brief introduction into who I am.\n\nI’m Mason, a certain someone who likes to know everything about everything. I consider myself a geography wizard, challenging me into a geography duel would be the end of your career. I like to think I know every model of any car brand that drives down the road. I like to run, as a matter of fact I just ran a 50k (30 miles) in December of 2023 in Eugene, Oregon. Speaking of Oregon, Oregon’s my origin! I consider myself a proud Oregonian who enjoys the surreal experience of touching the summit of a mountain. If you happen to visit Oregon, I recomend visiting Silver Falls State Park which is east of Salem, Oregon. I also consider myself a lover of Idaho. I’m graduating from Rexburg, Idaho in 3 months and am both happy and sad. Brigham Young University - Idaho has treated me well and has given me an experience to remember. I’m finishing my studies in Data Science and Finance and looking for a Data Analyst position. I have a lot to look forward to. This blog will be epic!"
+    "text": "Welcome to Mason’s Blog! This article gives a brief introduction into who I am.\n\nI’m Mason Henrie, a 2024 graduate from BYU-Idaho. I studied both data science and finance in college. Here’s some quick facts:\n\nI love lifting weights and running long distance. I ran a 50k in December 2023 in Eugene, Oregon.\nI love geography and traveling. I can name all 195 countries off the top of my head.\nI love cars and automotive. Challenge me by showing a picture of a car and I will attempt to name the model.\nI love designing floor plans. I’ve built over 10 floor plans on my phone via apps."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Work remote and save thousands",
+    "section": "",
+    "text": "The average home value in my home town is $399,220. A property lot in rural arkansas can cost as low as $5,000 with utilities included. If you chose to work an on-site job, you are being forced to buy or rent a home in the surrounding area. If you work remotely, you have the opportunity to live on cheap land with more take-home income.\nIt is crazy to me how it’s normalized to buy these $400K houses.\nIn America, less than 1% of people retire before the age of 50. I imagine that the reason for high age retirement is because of high mortgage payments. These mortgage payments act as a siphon for retirement savings accounts. Working remotely can give you the opportunity to minimize spending and increase savings.\nWould you rather work remotely in rural arkansas or pay an unreasonable amount of cash to live in your hometown?"
   },
   {
     "objectID": "about.html",
@@ -21,10 +21,17 @@
     "text": "Studied Data Science and Finance at Brigham Young University - Idaho"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mason’s Blog",
     "section": "",
-    "text": "This is a post with executable code. BLAHBLAH"
+    "text": "Visualization tools for Data Analyst\n\n\n\n\n\n\nretirement\n\n\n\n\n\n\n\n\n\nApr 27, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nWork remote and save thousands\n\n\n\n\n\n\nretirement\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nLet me introduce myself\n\n\n\n\n\n\nAboutMe\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/v-tools-for-data-analysts/index.html",
+    "href": "posts/v-tools-for-data-analysts/index.html",
+    "title": "Visualization tools for Data Analyst",
+    "section": "",
+    "text": "What visualization tools do data analysts use?\n\nExcel\nLooker\nSisense\nTableau\nPower BI\nQlikView/Qlik Sense\nSAS Visual Analytics\nR packages (ggplot2, Shiny, Plotly)\nPython libraries (Matplotlib, Seaborn, Plotly)\nGoogle Data Studio (Google Analytics, Google Sheets)\n\nI looked up 100 data analyst jobs on indeed, what tools do they use?"
   }
 ]
