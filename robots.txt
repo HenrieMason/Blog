@@ -1,1 +1,1 @@
-Sitemap: https://HenrieMason.github.io/New_Folder/sitemap.xml
+Sitemap: https://HenrieMason.github.io/Blog/sitemap.xml

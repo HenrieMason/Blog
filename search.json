@@ -4,14 +4,14 @@
     "href": "posts/welcome/index.html",
     "title": "Let me introduce myself",
     "section": "",
-    "text": "Welcome to Mason’s Blog! This article gives a brief introduction into who I am.\n\nI’m Mason Henrie, a 2024 graduate from BYU-Idaho. I studied both data science and finance in college. Here’s some quick facts:\n\nI love lifting weights and running long distance. I ran a 50k in December 2023 in Eugene, Oregon.\nI love geography and traveling. I can name all 195 countries off the top of my head.\nI love cars and automotive. Challenge me by showing a picture of a car and I will attempt to name the model.\nI love designing floor plans. I’ve built over 10 floor plans on my phone via apps."
+    "text": "Welcome to Mason’s Blog! This article gives a brief introduction into who I am.\nI’m Mason Henrie, a 2024 graduate from BYU-Idaho. I studied both data science and finance in college. Here’s some quick facts:\n\nI love lifting weights and running long distance. I ran a 50k in December 2023 in Eugene, Oregon.\nI love geography and traveling. I can name all 195 countries off the top of my head.\nI love cars and automotive. Challenge me by showing a picture of a car and I will attempt to name the model.\nI love designing floor plans. I’ve built over 10 floor plans on my phone via apps."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Work remote and save thousands",
+    "objectID": "posts/datasciencetools/index.html",
+    "href": "posts/datasciencetools/index.html",
+    "title": "Visualization tools for Data Analyst",
     "section": "",
-    "text": "The average home value in my home town is $399,220. A property lot in rural arkansas can cost as low as $5,000 with utilities included. If you chose to work an on-site job, you are being forced to buy or rent a home in the surrounding area. If you work remotely, you have the opportunity to live on cheap land with more take-home income.\nIt is crazy to me how it’s normalized to buy these $400K houses.\nIn America, less than 1% of people retire before the age of 50. I imagine that the reason for high age retirement is because of high mortgage payments. These mortgage payments act as a siphon for retirement savings accounts. Working remotely can give you the opportunity to minimize spending and increase savings.\nWould you rather work remotely in rural arkansas or pay an unreasonable amount of cash to live in your hometown?"
+    "text": "What visualization tools do data analysts use?\n\nExcel\nLooker\nSisense\nTableau\nPower BI\nQlikView/Qlik Sense\nSAS Visual Analytics\nR packages (ggplot2, Shiny, Plotly)\nPython libraries (Matplotlib, Seaborn, Plotly)\nGoogle Data Studio (Google Analytics, Google Sheets)\n\nI looked up 100 data analyst jobs on indeed, what tools do they use?"
   },
   {
     "objectID": "about.html",
@@ -25,13 +25,13 @@
     "href": "index.html",
     "title": "Mason’s Blog",
     "section": "",
-    "text": "Visualization tools for Data Analyst\n\n\n\n\n\n\nretirement\n\n\n\n\n\n\n\n\n\nApr 27, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nWork remote and save thousands\n\n\n\n\n\n\nretirement\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nLet me introduce myself\n\n\n\n\n\n\nAboutMe\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\nNo matching items"
+    "text": "Visualization tools for Data Analyst\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApr 27, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nWork remote and save thousands\n\n\n\n\n\n\nretirement\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\n\n\n\n\n\n\nLet me introduce myself\n\n\n\n\n\n\nAboutMe\n\n\n\n\n\n\n\n\n\nApr 24, 2024\n\n\nMason Henrie\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/v-tools-for-data-analysts/index.html",
-    "href": "posts/v-tools-for-data-analysts/index.html",
-    "title": "Visualization tools for Data Analyst",
+    "objectID": "posts/workremote/index.html",
+    "href": "posts/workremote/index.html",
+    "title": "Work remote and save thousands",
     "section": "",
-    "text": "What visualization tools do data analysts use?\n\nExcel\nLooker\nSisense\nTableau\nPower BI\nQlikView/Qlik Sense\nSAS Visual Analytics\nR packages (ggplot2, Shiny, Plotly)\nPython libraries (Matplotlib, Seaborn, Plotly)\nGoogle Data Studio (Google Analytics, Google Sheets)\n\nI looked up 100 data analyst jobs on indeed, what tools do they use?"
+    "text": "I will not pay more than 100k for a home.\nIt pains me that the average home in my hometown is $399,220. I would much rather build a home on a $5k lot in a rural area and live debt free.\nUnfortunately, these $5k lots are almost never located near a big city. If they are, they’re likely in a sketchy neightborhood or in a greedy HOA.\nThat’s why I belive it’s so important to work remote. Working remote can enable the opportunity to buy land in cheap and remote places anywhere.\nWorking on-site will force you to buy a home in the surrounding area for an outrageous price. Your home loan is likely the largest roadblock inbetween you and your deserved retirement. I don’t know about you, but finally retiring at 60 sounds sickening.\nTo show you that it’s possible, let me introduce you to Hot Springs Village, Arkansas.\n\nHot Springs Village has a Walmart"
   }
 ]
