@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -146,18 +146,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I will not pay more than 100k for a home.</p>
-<p>It pains me that the average home in my hometown is $400,000. I would much rather build a small home on a rural $5k lot and live debt-free.</p>
+<p>I will not pay more than $100k for a home.</p>
+<p>It pains me that the average home in my hometown costs $400,000. I would much rather build a small home on a rural $5k lot and live debt-free.</p>
 <p>Unfortunately, these $5k lots are almost never located near a big city. If they are, they’re likely in a sketchy neighborhood or in a greedy HOA.</p>
-<p>That’s why I believe it’s so important to work remote. Working remote can enable the opportunity to buy land in cheap and remote places.</p>
-<p>Working on-site will force you to buy a home in the surrounding area for an outrageous price. Your home loan is likely the largest roadblock between you and your deserved retirement. I don’t know about you, but finally retiring at 60 sounds sickening.</p>
+<p>That’s why I believe it’s so important to work remotely. Working remotely can enable the opportunity to buy land in cheap and remote places.</p>
+<p>Working on-site will force you to buy a home in the surrounding area at an outrageous price. Your home loan is likely the largest roadblock between you and your deserved retirement. I don’t know about you, but finally retiring at 60 sounds sickening.</p>
 <p>To show you that it’s possible, let me introduce you to Hot Springs Village, Arkansas.</p>
 <p><img src="village.png" class="img-fluid"></p>
-<p>Hot Springs Village is a delightful town located 1 hour west of Little Rock, Arkansas. This town has a Walmart, an insane golf course, many restaurants, and is situated right inside Ouachita National Forest.</p>
+<p>Hot Springs Village is a delightful town located 1 hour west of Little Rock, Arkansas. This town has a Walmart, an incredible golf course, many restaurants, and is situated right inside the Ouachita National Forest.</p>
 <p><img src="map.png" class="img-fluid"></p>
-<p>All the properties in this area have access to utilities such as water, electricity, and city sewage. Most of these properties are gated with an HOA fee of $49/month, which comes with a golf course, tennis courts, a pool, and so much more. I would highly consider this area if I were to work remote.</p>
+<p>All the properties in this area have access to utilities such as water, electricity, and city sewage. Most of these properties are gated, with an HOA fee of $49/month, which includes a golf course, tennis courts, a pool, and much more. I would highly consider this area if I were to work remotely.</p>
 <p><img src="arkansas.png" class="img-fluid"></p>
-<p>A $400,000 home isn’t completely necessary and will keep you from retiring early. Consider working remotely so a life like this can be possible.</p>
+<p>A $400,000 home isn’t necessary and will keep you from retiring early. Consider working remotely so a life like this can be possible.</p>
 
 
 
@@ -197,18 +197,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -240,7 +229,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/HenrieMason\.github\.io\/Blog\/");
@@ -248,7 +259,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
