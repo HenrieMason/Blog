@@ -2,9 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/workremote/index.html",
       "/posts/datasciencetools/index.html",
-      "/posts/welcome/index.html",
-      "/posts/workremote/index.html"
+      "/posts/welcome/index.html"
     ]
   }
 ]

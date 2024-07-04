@@ -8,6 +8,9 @@ categories: []
 Welcome to Mason's Blog!
 
 
+
+Welcome to Mason's Blog!
+
 I'm Mason Henrie, a 2024 graduate from BYU-Idaho. I studied both data science and finance in college. Here are some quick facts about me:
 
 - I love lifting weights and running long distances. I ran a 50k in December 2023 in Eugene, Oregon.
