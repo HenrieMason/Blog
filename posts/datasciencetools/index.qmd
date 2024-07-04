@@ -1,9 +1,9 @@
 ---
 title: "Visualization tools for Data Analyst"
 author: "Mason Henrie"
-date: "2024-04-27"
+date: "2024-07-04"
 categories: []
-image: "image.jpg"
+image: "VStools.png"
 ---
 
 Have I been taught the industry standards for data visualization?
