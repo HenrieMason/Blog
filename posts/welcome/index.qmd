@@ -3,6 +3,7 @@ title: "Let me introduce myself"
 author: "Mason Henrie"
 date: "2024-04-24"
 categories: []
+image: "Selfie.png"
 ---
 
 Welcome to Mason's Blog!
