@@ -1,0 +1,38 @@
+---
+title: "Visualization tools for Data Analyst"
+author: "Mason Henrie"
+date: "2024-04-27"
+categories: []
+image: "image.jpg"
+---
+
+Have I been taught the industry standard for data visualization
+
+
+
+
+
+
+
+- Excel
+- Looker
+- Sisense
+- Tableau
+- Power BI 
+- QlikView/Qlik Sense
+- SAS Visual Analytics
+- R packages (ggplot2, Shiny, Plotly)
+- Python libraries (Matplotlib, Seaborn, Plotly)
+- Google Data Studio (Google Analytics, Google Sheets)
+
+I looked up 100 data analyst jobs on indeed, what tools do they use?
+
+
+
+
+
+
+
+
+
+

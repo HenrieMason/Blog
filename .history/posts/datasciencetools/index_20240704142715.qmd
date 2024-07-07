@@ -1,0 +1,23 @@
+---
+title: "Visualization tools for Data Analyst"
+author: "Mason Henrie"
+date: "2024-04-27"
+categories: []
+image: "image.jpg"
+---
+
+What visualization tools do data analysts use?
+
+
+
+I looked up 100 data analyst jobs on indeed, what tools do they use?
+
+
+
+
+
+
+
+
+
+

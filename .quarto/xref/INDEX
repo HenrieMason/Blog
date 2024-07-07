@@ -1,0 +1,20 @@
+{
+  "posts/post-with-code/index.qmd": {
+    "index.html": "2d23836f"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "9aa707c6"
+  },
+  "index.qmd": {
+    "index.html": "e3fbe171"
+  },
+  "about.qmd": {
+    "about.html": "626b202b"
+  },
+  "posts/workremote/index.qmd": {
+    "index.html": "921b8d81"
+  },
+  "posts/datasciencetools/index.qmd": {
+    "index.html": "e62985f3"
+  }
+}

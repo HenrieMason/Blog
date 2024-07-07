@@ -1,0 +1,36 @@
+---
+title: "Visualization tools for Data Analyst"
+author: "Mason Henrie"
+date: "2024-07-04"
+categories: []
+image: "image.jpg"
+---
+
+Have I been taught the industry standards for data visualization?
+
+Throughout my college experience, I've learned to visualize data using Python libraries, R, Excel, Google Sheets, and Power BI. But did I learn the most important tools?
+
+There are other visualization tools such as QlikView/QlikSense, SAS, Tableau, Sisense, and Looker. I hope I'm not missing anything important and widely used in the industry.
+
+Without filtering, I searched for 50 data analyst jobs with the title "Data Analyst." 25 of these jobs were from Indeed, and 25 were from LinkedIn.
+
+![](Visual.png)
+
+It appears that Excel, Power BI, and Tableau are crucial to know in the data analyst field. I only took one Excel class and one Power BI class in college, and now I believe I should have taken more. It surprises me that I did not learn Tableau in college, as it is so widely used in the real world.
+
+Overall, my college education has provided me with a strong foundation in the most widely used tools. However, I might consider learning these other tools on my own to stay competitive in the industry.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
